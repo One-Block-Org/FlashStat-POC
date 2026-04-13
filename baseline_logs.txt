@@ -1,73 +1,61 @@
-    Finished `release` profile [optimized] target(s) in 2.62s
+    Finished `release` profile [optimized] target(s) in 0.79s
      Running `target/release/flash-skeleton`
-🏮 FlashStat POC: Unichain Soft-Finality Monitor
-Connecting to https://sepolia.unichain.org...
-Timestamp            | Block #    | Confidence   | Status    
-------------------------------------------------------------
-00:35:20.918         | 49184493   |      50.00% | PENDING   
+🏮 FlashStat: Unichain Soft-Finality Monitor
+  RPC: https://sepolia.unichain.org
+  Duration: 60s
+────────────────────────────────────────────────────────────
+  Timestamp             |  Block         |  Confidence  |  Status
+────────────────────────────────────────────────────────────
+03:16:29.902  |  #49194162  |    50.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184494!
-00:35:22.304         | 49184494   |      50.00% | PENDING   
-00:35:22.741         | 49184495   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194167
+03:16:35.012  |  #49194167  |    50.00%  |  PENDING
+03:16:35.466  |  #49194168  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184496!
-00:35:24.027         | 49184496   |      50.00% | PENDING   
-00:35:24.557         | 49184497   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194171
+03:16:39.116  |  #49194171  |    50.00%  |  PENDING
+03:16:39.628  |  #49194172  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184505!
-00:35:33.056         | 49184505   |      50.00% | PENDING   
-00:35:33.569         | 49184506   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194178
+03:16:46.065  |  #49194178  |    50.00%  |  PENDING
+03:16:46.502  |  #49194179  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184507!
-00:35:35.051         | 49184507   |      50.00% | PENDING   
-00:35:35.480         | 49184508   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194180
+03:16:48.032  |  #49194180  |    50.00%  |  PENDING
+03:16:48.462  |  #49194181  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184511!
-00:35:39.041         | 49184511   |      50.00% | PENDING   
-00:35:39.466         | 49184512   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194184
+03:16:52.032  |  #49194184  |    50.00%  |  PENDING
+03:16:52.478  |  #49194185  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184515!
-00:35:43.091         | 49184515   |      50.00% | PENDING   
-00:35:43.529         | 49184516   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194187
+03:16:55.172  |  #49194187  |    50.00%  |  PENDING
+03:16:55.625  |  #49194188  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184518!
-00:35:46.181         | 49184518   |      50.00% | PENDING   
-00:35:46.607         | 49184519   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194188
+03:16:56.065  |  #49194188  |    50.00%  |  PENDING
+03:16:56.509  |  #49194189  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184519!
-00:35:47.035         | 49184519   |      50.00% | PENDING   
-00:35:47.463         | 49184520   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194199
+03:17:07.172  |  #49194199  |    50.00%  |  PENDING
+03:17:07.610  |  #49194200  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184522!
-00:35:50.157         | 49184522   |      50.00% | PENDING   
-00:35:50.586         | 49184523   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194200
+03:17:08.045  |  #49194200  |    50.00%  |  PENDING
+03:17:08.477  |  #49194201  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184523!
-00:35:51.013         | 49184523   |      50.00% | PENDING   
-00:35:51.446         | 49184524   |      75.00% | PENDING   
+[!] SOFT REORG at block 49194219
+03:17:27.069  |  #49194219  |    50.00%  |  PENDING
+03:17:27.506  |  #49194220  |    75.00%  |  PENDING
 
-[!] ALERT: Soft Reorg Detected at Block 49184526!
-00:35:54.005         | 49184526   |      50.00% | PENDING   
-00:35:54.430         | 49184527   |      75.00% | PENDING   
+[✓] Baseline complete.
 
-[!] ALERT: Soft Reorg Detected at Block 49184529!
-00:35:57.068         | 49184529   |      50.00% | PENDING   
-00:35:57.529         | 49184530   |      75.00% | PENDING   
-
-[!] ALERT: Soft Reorg Detected at Block 49184533!
-00:36:01.029         | 49184533   |      50.00% | PENDING   
-00:36:01.461         | 49184534   |      75.00% | PENDING   
-
-[!] ALERT: Soft Reorg Detected at Block 49184537!
-00:36:05.027         | 49184537   |      50.00% | PENDING   
-00:36:05.462         | 49184538   |      75.00% | PENDING   
-
-[!] ALERT: Soft Reorg Detected at Block 49184541!
-00:36:09.015         | 49184541   |      50.00% | PENDING   
-00:36:09.446         | 49184542   |      75.00% | PENDING   
-
-[!] ALERT: Soft Reorg Detected at Block 49184550!
-00:36:18.069         | 49184550   |      50.00% | PENDING   
-00:36:18.486         | 49184551   |      75.00% | PENDING   
-
-[!] 60-second baseline complete.
+════════════════════════════════════════════════════════════
+  🏮 SESSION SUMMARY
+════════════════════════════════════════════════════════════
+  Duration:                    60.1s
+  Blocks Observed:             21
+  Soft Reorgs Detected:        10
+  Avg. Block Confidence:       61.90%
+  Reorg Frequency:             ~1 every 6.0s
+════════════════════════════════════════════════════════════
