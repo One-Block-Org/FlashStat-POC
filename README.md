@@ -1,5 +1,8 @@
 # FlashStat POC
 
+> [!IMPORTANT]
+> **View the Full $60,000 Grant Proposal & Technical Roadmap here: [PROPOSAL.md](./PROPOSAL.md)**
+
 > **One Block: The Transparency Layer for Ethereum**
 
 A Proof-of-Concept for the **FlashStat** infrastructure project — the first real-time soft-finality monitor for the Unichain network.
